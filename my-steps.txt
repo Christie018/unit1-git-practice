@@ -111,4 +111,8 @@ git commit -m "Starting a menu"
 git push origin update
 
 ### Step 7
+I used a new git branch to push the update. I opened a PR on GH and merged the update branch with main locally and on GH.
+git checkout main
+git merge update
+git branch -d update
 *** DO NOT RECORD STEP 7 ***
