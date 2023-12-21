@@ -96,9 +96,19 @@ git init
 
 ### Step 5
 git remote add origin https://github.com/Christie018/unit1-git-practice.git
+git branch -M main
+git add .
+git commit -m "Initial commit"
+git push origin main
 
 ### Step 6
-
+git branch update
+git checkout update
+type nul > menu.txt
+git status
+git add . 
+git commit -m "Starting a menu"
+git push origin update
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
