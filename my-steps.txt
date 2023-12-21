@@ -1,0 +1,104 @@
+I'm working from the Windows CMD instead of git bash. I didn't choose to install this package when I previously installed git.
+
+### Step 2A
+C:\Users\MattieD
+
+### Step 2B
+cd Desktop
+
+### Step 2C
+cd unit1-git-practice
+
+### Step 2D
+C:\Users\MattieD\Desktop\unit1-git-practice
+
+### Step 2E
+dir
+
+### Step 2F
+12/21/2023  05:42 PM    <DIR>          .
+12/21/2023  05:42 PM    <DIR>          ..
+12/21/2023  05:41 PM               430 my-steps.txt
+               1 File(s)            430 bytes
+               2 Dir(s)  110,906,458,112 bytes free
+
+### Step 2G
+cd \
+
+### Step 2H
+C:\
+
+### Step 2I
+12/17/2023  10:14 PM    <DIR>          Intel
+12/07/2019  04:14 AM    <DIR>          PerfLogs
+12/21/2023  04:37 PM    <DIR>          Program Files
+12/21/2023  04:36 PM    <DIR>          Program Files (x86)
+12/20/2022  04:05 PM    <DIR>          Users
+12/17/2023  10:28 PM    <DIR>          Windows
+               0 File(s)              0 bytes
+               6 Dir(s)  110,904,721,408 bytes free
+
+### Step 2J
+cd Users\MattieD
+
+### Step 2K
+cd Desktop\unit1-git-practice
+
+### Step 3A
+mkdir veggies meats desserts
+
+### Step 3B
+move desserts sweets
+
+### Step 3C
+mkdir proteins
+
+### Step 3D
+move meats proteins
+
+### Step 3E
+cd veggies
+type nul > carrot.txt
+type nul > pea.txt
+
+### Step 3F
+cd ../
+type nul > cookie.txt
+
+### Step 3G
+move cookie.txt donut.txt
+
+### Step 3H
+cd ../
+type nul > thing.txt
+
+### Step 3I
+copy thing.txt tofu.txt
+
+### Step 3J
+move tofu.txt proteins
+
+### Step 3K
+copy thing.txt proteins\meats\crab.txt
+
+### Step 3L
+del thing.txt
+
+### Step 3M
+xcopy veggies plants\ /s /e
+
+### Step 3N
+mkdir drinks
+rmdir drinks
+
+### Step 4
+git init
+
+### Step 5
+git remote add origin https://github.com/Christie018/unit1-git-practice.git
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
